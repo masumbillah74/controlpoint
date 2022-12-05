@@ -9,6 +9,7 @@ Hardware:
 Setup: 
   1. Follow the sparkfun nrf52840 hookup [guide](https://learn.sparkfun.com/tutorials/sparkfun-pro-nrf52840-mini-hookup-guide?_ga=2.261429448.497871716.1668802234-2067808309.1668802234)
   2. In the /nrf52/ver_num/variants folder, change the pin assignment for the I2C pins, because the original pins need a QWIC connector. If you have the connector, you don't need to do this step. I chose Pin 4 for SDA and Pin 5 for SCL. (this directory is present in your arduino home folder, when you are copying the variants folder for the above step).
+  3. Add the Adafruit 9DOF and Adafruit BNO055 libraries via the arduino library manager. The first one should also install Unified Sensors library with it.
 
 How it works: 
   1. Every second, the BLE board (which is also the main controller) polls the BNO055 sensor for orientation data over I2C, and the BNO055 sensor returns the X Y and Z orientation values. 
