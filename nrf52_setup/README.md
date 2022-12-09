@@ -1,5 +1,15 @@
 Time Of Flight BLE
 
+This ToF code is originally developed by Giovanelli et al. If you use this code for any research project, review article or other document please cite:
+
+Giovanelli, D., & Farella, E. (2018, September). RSSI or Time-of-Flight for Bluetooth Low Energy based localization? An experimental evaluation. In Wireless and Mobile Networking Conference (WMNC), 2018 11th International (pp. 1622-1627). IFIP/IEEE
+
+and/or:
+
+Giovanelli, D., Farella, E., Fontanelli, D., Macii, D. (2018, September). Bluetooth-based Indoor Positioning through ToF and RSSI Data Fusion. In Indoor Positioning and Indoor Navigation Conference (IPIN), 2018 IEEE International (pp. 1-6). IEEE
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project contains sources for getting ToF measure from a BLE connection.
 It is based on the Nordic Semiconductor nRF52 platform and it works both on nRF52832 and on nRF52840 MCUs.
 The provided example is based on a modified version of ble_app_att_mtu_throughput example provided by Nordic Semiconductor and only the arm GCC toolchain is supported.
@@ -34,14 +44,6 @@ A description of the measurement methodology can be found in the paper "RSSI or 
 
 The code is organized as module (following the programming style of the Nordic Semiconductor SDK) and it can be added to another project by including the files in /nRF5_SDK_14.0.0_3bcc1f7/external/ifs_tof.
 For the inclusion of the module please refer to the example main in /nRF5_SDK_14.0.0_3bcc1f7/examples/ble_central_and_peripheral/experimental/ble_app_att_mtu_throughput/main.c
-
-If you use this code for any research project, review article or other document please cite:
-
-Giovanelli, D., & Farella, E. (2018, September). RSSI or Time-of-Flight for Bluetooth Low Energy based localization? An experimental evaluation. In Wireless and Mobile Networking Conference (WMNC), 2018 11th International (pp. 1622-1627). IFIP/IEEE
-
-and/or:
-
-Giovanelli, D., Farella, E., Fontanelli, D., Macii, D. (2018, September). Bluetooth-based Indoor Positioning through ToF and RSSI Data Fusion. In Indoor Positioning and Indoor Navigation Conference (IPIN), 2018 IEEE International (pp. 1-6). IEEE
 
 Our code (the ifs_tof module) is released under Apache License Version 2.0, see LICENSE file in the root of repository.
 The rest of the code is released by Nordic Semiconductor and for that refer to Nordic license file in /nRF5_SDK_14.0.0_3bcc1f7/license.txt
