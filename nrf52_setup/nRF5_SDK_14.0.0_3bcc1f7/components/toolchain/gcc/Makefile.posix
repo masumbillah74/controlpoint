@@ -1,0 +1,3 @@
+GNU_INSTALL_ROOT := /home/rabbi/Desktop/RL_OCC/Nordic/GNU_toolchain/bin/
+GNU_VERSION := 4.9.3
+GNU_PREFIX := arm-none-eabi

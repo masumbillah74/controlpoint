@@ -1,0 +1,112 @@
+2020-Jul-07 21:18:16  --------------------------------------------------------------------------------
+2020-Jul-07 21:18:16  nrfjprog --family nRF52 -e --log
+2020-Jul-07 21:18:16  nrfjprog version 10.3.0
+2020-Jul-07 21:18:16  --------------------------------------------------------------------------------
+2020-Jul-07 21:18:16  nRF_logger_open
+2020-Jul-07 21:18:16  nRF_logger_open:	nRFJProg logger opened to callback at address 0X55614C4F5AB0
+2020-Jul-07 21:18:16  nRF_open_dll
+2020-Jul-07 21:18:16  nRF_open_dll:	Load library at "/opt/nrfjprog/libjlinkarm_nrf52_nrfjprogdll.so".
+
+2020-Jul-07 21:18:16  . nRF52_logger_open
+2020-Jul-07 21:18:16  . nRF52_logger_open:	nRFJProg logger opened to callback at address 0X7F4A36AC3730
+2020-Jul-07 21:18:16  . nRF52_open_dll
+2020-Jul-07 21:18:16  . . nRF52_dll_version
+2020-Jul-07 21:18:16  nRF_enum_emu_snr
+2020-Jul-07 21:18:16  . nRF52_enum_emu_snr
+2020-Jul-07 21:18:16  . . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  nRF_enum_emu_snr
+2020-Jul-07 21:18:17  . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  . . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  nRF_connect_to_emu_with_snr
+2020-Jul-07 21:18:17  . nRF52_connect_to_emu_with_snr
+2020-Jul-07 21:18:17  . . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  . . . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  . . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  . . . nRF52_enum_emu_snr
+2020-Jul-07 21:18:17  . . nRF52_connect_to_emu_with_snr
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	Segger logging enabled with callback at 0x139956719178928.
+
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Jan 21 2020 17:30:48
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 Hardware: V1.00
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 S/N: 683352025
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 TELNET listener socket opened on port 19021
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	WEBSRV  Starting webserver
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0003ms, 0965ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	WEBSRV Webserver running on local port 19080
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0003ms, 0965ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns O.K.
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0003ms, 0965ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_GetHWStatus(...)
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns 0x00
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0000ms, 0965ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	XML file found at: /opt/SEGGER/JLink/JLinkDevices.xml
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0000ms, 0965ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	/opt/SEGGER/JLink/JLinkDevices.xml evaluated successfully.
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	Device "NRF52832_XXAA" selected.
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns 0x00
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0024ms, 0989ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns 0x01
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0000ms, 0989ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_ExecCommand("DisableFlashDL", ...). 
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns 0x00
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0000ms, 0989ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns 0x00
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0000ms, 0989ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	  returns 0x00
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0002ms, 0991ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	JLINK_SetSpeed(2000)
+2020-Jul-07 21:18:17  . . . nRF52_connect_to_emu_without_snr:	JLink INFO	 (0000ms, 0991ms total)  
+2020-Jul-07 21:18:17  nRF_read_device_version
+2020-Jul-07 21:18:17  . nRF52_read_device_version
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu:	JLink INFO	JLINK_IsOpen()
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu:	JLink INFO	  returns 0x01
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu:	JLink INFO	 (0000ms, 0991ms total)  
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_device
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_device:	JLink INFO	JLINK_IsConnected()
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_device:	JLink INFO	  returns FALSE
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_device:	JLink INFO	 (0000ms, 0991ms total)  
+2020-Jul-07 21:18:17  . . nRF52_readback_status
+2020-Jul-07 21:18:17  . . . nRF52_is_ctrl_ap_available
+2020-Jul-07 21:18:17  . . . . nRF52_read_access_port_register
+2020-Jul-07 21:18:17  . . . . . nRF52_coresight_configure
+2020-Jul-07 21:18:17  . . . . . nRF52_coresight_configure:	JLink INFO	JLINK_CORESIGHT_Configure()
+2020-Jul-07 21:18:17  . . . . . nRF52_coresight_configure:	JLink INFO	  returns 0
+2020-Jul-07 21:18:17  . . . . . nRF52_coresight_configure:	JLink INFO	 (0101ms, 1092ms total)  
+2020-Jul-07 21:18:17  . . . . . nRF52_is_debug_and_system_regions_powered
+2020-Jul-07 21:18:17  . . . . . . nRF52_read_debug_port_register
+2020-Jul-07 21:18:17  . . . . . . nRF52_read_debug_port_register:	JLink INFO	JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)
+2020-Jul-07 21:18:17  . . . . . . nRF52_read_debug_port_register:	JLink INFO	  returns -1
+2020-Jul-07 21:18:17  . . . . . . nRF52_read_debug_port_register:	JLink INFO	 (0001ms, 1093ms total)  
+2020-Jul-07 21:18:17  . . . . . . nRF52_read_debug_port_register:	JLinkARM.dll CORESIGHT_WriteAPDPReg returned error -1.
+
+2020-Jul-07 21:18:17  nRF_close_dll
+2020-Jul-07 21:18:17  . nRF52_close_dll
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu:	JLink INFO	JLINK_IsOpen()
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu:	JLink INFO	  returns 0x01
+2020-Jul-07 21:18:17  . . nRF52_is_connected_to_emu:	JLink INFO	 (0000ms, 1093ms total)  
+2020-Jul-07 21:18:17  . . nRF52_disconnect_from_emu
+2020-Jul-07 21:18:17  . . . nRF52_is_connected_to_device
+2020-Jul-07 21:18:17  . . . nRF52_is_connected_to_device:	JLink INFO	JLINK_IsConnected()
+2020-Jul-07 21:18:17  . . . nRF52_is_connected_to_device:	JLink INFO	  returns FALSE
+2020-Jul-07 21:18:17  . . . nRF52_is_connected_to_device:	JLink INFO	 (0000ms, 1093ms total)  
+2020-Jul-07 21:18:17  . . . nRF52_is_debug_and_system_regions_powered
+2020-Jul-07 21:18:17  . . . . nRF52_read_debug_port_register
+2020-Jul-07 21:18:17  . . . . nRF52_read_debug_port_register:	JLink INFO	JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)
+2020-Jul-07 21:18:17  . . . . nRF52_read_debug_port_register:	JLink INFO	  returns -1
+2020-Jul-07 21:18:17  . . . . nRF52_read_debug_port_register:	JLink INFO	 (0001ms, 1094ms total)  
+2020-Jul-07 21:18:17  . . . . nRF52_read_debug_port_register:	JLinkARM.dll CORESIGHT_WriteAPDPReg returned error -1.
+
+2020-Jul-07 21:18:17  . . nRF52_disconnect_from_emu:	JLink INFO	JLINK_Close()
+2020-Jul-07 21:18:17  . nRF52_close_dll:	Freeing Library.
+
+2020-Jul-07 21:18:17  nRF_close_dll:	Freeing Library.
+
